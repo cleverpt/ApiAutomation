@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.486">
+    <testcase classname="Social_Networking" name="Create a Comment" time="0.083">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given jsonplaceholder service is up and running.............................undefined
+When I create a new comment with details "9", "Lateef Abdulsalam", "Abdulsalam1220@gardner.biz" and "I like this post" using post method.skipped
+Then I should get status code of 201 and "9", "Lateef Abdulsalam", "Abdulsalam1220@gardner.biz" and "I like this post".skipped
+]]></failure>
+    </testcase>
+</testsuite>
